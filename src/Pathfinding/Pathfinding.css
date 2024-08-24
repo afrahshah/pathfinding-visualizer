@@ -1,3 +1,36 @@
 .grid {
-    margin: 100px 0 0;
+    margin: 20px 0 0;
   }
+body{
+  margin-top: 3%;
+}
+/* General button styling */
+button {
+  padding: 10px 20px; /* Increase padding for bigger buttons */
+  font-size: 16px;    /* Adjust font size for better readability */
+  border-radius: 8px; /* Rounded corners */
+  border: none;       /* Remove default border */
+  color: #fff;        /* White text color */
+  background-color: rgba(138, 43, 226, 0.75); /* Background color */
+  cursor: pointer;    /* Pointer cursor on hover */
+  margin: 5px;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+button:hover {
+  background-color:  rgba(128, 0, 128, 0.75); /* Darker background color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Focus effect */
+button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(186, 85, 211, 0.75); /* Add custom focus ring */
+}
+
+/* Disabled state */
+button:disabled {
+  background-color: #ccc; /* Light gray background for disabled buttons */
+  cursor: not-allowed;    /* Change cursor to indicate disabled state */
+}

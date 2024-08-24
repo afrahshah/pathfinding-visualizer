@@ -9,7 +9,6 @@ export function bfs(grid, startNode, finishNode) {
   
       if (node === finishNode) return visitedNodesInOrder;
   
-      const { col, row } = node;
       const neighbors = getUnvisitedNeighbors(node, grid);
       for (const neighbor of neighbors) {
         neighbor.isVisited = true;
