@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Pathfinding Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based application for visualizing pathfinding algorithms on a grid. This project demonstrates different pathfinding techniques, including Dijkstra's Algorithm, Breadth-First Search (BFS), and Depth-First Search (DFS), with real-time animations of node traversal and shortest path determination.
 
-## Available Scripts
+## Application Demonstration
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.  Algorithm Visualization: Visualize Dijkstra’s Algorithm, BFS, and DFS with real-time            animations.
+2.  Dynamic Node Placement: Place start and end nodes anywhere on the grid.
+3.  Interactive Grid: Add or remove walls dynamically using mouse interactions.
+4.  Reset Functionality: Clear the grid and start fresh with a reset button.
+5.  Responsive Design: Optimized for various screen sizes and devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+1. Clone the Repository
+```bash
+git clone https://github.com/afrahshah/pathfinding-visualizer.git
+cd pathfinding-visualizer
+```
+2. Install Dependencies
+```
+npm install
+```
+3. Start the Development Server
+```
+npm start
+```
+4. Open in Browser
+Navigate to http://localhost:3000 in your web browser to view the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Visualize Pathfinding Algorithms: Click on the "Visualize Dijkstra's Algorithm", "Visualize BFS", or "Visualize DFS" buttons to see the corresponding algorithm in action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Set Start and End Nodes: Click on the grid to set the start and end nodes. Click "Visualize" to start the pathfinding process.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.Add/Remove Walls: Click and drag on the grid to add or remove walls.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.Reset: Click the "Reset" button to clear the grid and start over.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ReactJs Javascript, CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Inspired by visual pathfinding algorithm tutorials.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
