@@ -5,6 +5,18 @@ A React-based application for visualizing pathfinding algorithms on a grid. This
 ## Application Demonstration
 
 
+![Overall View](https://github.com/afrahshah/pathfinding-visualizer/raw/60ab5d3b4e959a0446900a5b10ca3028b514b9e7/public/Screenshot%202024-08-24%20195717.png)
+
+### Pathfinding Algorithm in Action
+
+![Algorithm Action](https://github.com/afrahshah/pathfinding-visualizer/raw/60ab5d3b4e959a0446900a5b10ca3028b514b9e7/public/Screenshot%202024-08-24%20195746.png)
+
+
+![Visualization](https://github.com/afrahshah/pathfinding-visualizer/raw/60ab5d3b4e959a0446900a5b10ca3028b514b9e7/public/Screenshot%202024-08-24%20195928.png)
+
+
+![ Visualization](https://github.com/afrahshah/pathfinding-visualizer/raw/60ab5d3b4e959a0446900a5b10ca3028b514b9e7/public/Screenshot%202024-08-24%20195956.png)
+
 ## Features
 
 1.  Algorithm Visualization: Visualize Dijkstra’s Algorithm, BFS, and DFS with real-time            animations.
